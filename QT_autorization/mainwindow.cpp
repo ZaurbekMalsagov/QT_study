@@ -23,9 +23,12 @@ void MainWindow::on_psBtnAutorize_clicked()
     QString password = ui->lEPassword->text();
 
     if (login == "Zaurbek" && password == "NeNravitsa_QT"){
-        QMessageBox::information(this, "Поздравляю", "Данные корректны");
+        // QMessageBox::information(this, "Поздравляю", "Данные корректны");
+        ui->statusbar->showMessage("Данные корректны");
     } else {
-        QMessageBox::warning(this, "Авторизация", "Неверные данные");
+        // QMessageBox::warning(this, "Авторизация", "Неверные данные");
+        ui->statusbar->showMessage("Данные не корректны");
+
     }
 
 }
