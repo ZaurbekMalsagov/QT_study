@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>images/png-transparent-customer-login-avatar-head-portrait-client-user.png</file>
+    </qresource>
+</RCC>
