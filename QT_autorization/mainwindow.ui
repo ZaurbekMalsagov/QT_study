@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>513</width>
+    <height>364</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>60</y>
+      <x>170</x>
+      <y>20</y>
       <width>311</width>
       <height>291</height>
      </rect>
@@ -70,6 +70,24 @@
       </item>
       <item>
        <widget class="QPushButton" name="psBtnAutorize">
+        <property name="font">
+         <font>
+          <family>Serif</family>
+          <pointsize>-1</pointsize>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: white;
+margin: 5;
+text-shadows: 5;
+
+font-size:13px;
+background: red;
+border-radius:5px;</string>
+        </property>
         <property name="text">
          <string>Авторизоваться</string>
         </property>
@@ -81,10 +99,10 @@
    <widget class="QLabel" name="image">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>60</y>
-      <width>311</width>
-      <height>291</height>
+      <x>10</x>
+      <y>40</y>
+      <width>141</width>
+      <height>131</height>
      </rect>
     </property>
     <property name="text">
@@ -97,7 +115,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>513</width>
      <height>20</height>
     </rect>
    </property>
