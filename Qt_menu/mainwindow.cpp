@@ -44,5 +44,7 @@ void MainWindow::on_action_3_triggered()
 void MainWindow::on_psBtnChoosElement_clicked()
 {
     ui->statusbar->showMessage(ui->listWidget->currentItem()->text());
+    ui->listWidget->currentItem()->setBackground(Qt::blue);
+    ui->listWidget->currentItem()->setForeground(Qt::white);
 }
 
